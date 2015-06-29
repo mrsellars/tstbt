@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg version="1.2" baseProfile="tiny" width="136.59mm" height="35.59mm" viewBox="3121 7221 13659 3559" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+ <defs>
+  <font id="EmbeddedFont_1" horiz-adv-x="2048">
+   <font-face font-family="Fira Mono embedded" units-per-em="2048" font-weight="normal" font-style="normal" ascent="2146" descent="709"/>
+   <missing-glyph horiz-adv-x="2048" d="M 0,0 L 2047,0 2047,2047 0,2047 0,0 Z"/>
+   <glyph unicode="B" horiz-adv-x="907" d="M 1104,401 C 1104,641 936,721 780,748 915,776 1042,872 1042,1055 1042,1331 791,1409 545,1409 L 199,1409 199,0 575,0 C 836,0 1104,94 1104,401 Z M 862,1044 C 862,881 770,809 602,809 L 373,809 373,1268 586,1268 C 756,1268 862,1206 862,1044 Z M 920,395 C 920,186 745,145 608,145 L 373,145 373,664 616,664 C 780,664 920,610 920,395 Z"/>
+  </font>
+ </defs>
+ <defs>
+  <font id="EmbeddedFont_2" horiz-adv-x="2048">
+   <font-face font-family="Fira Sans embedded" units-per-em="2048" font-weight="normal" font-style="normal" ascent="2146" descent="709"/>
+   <missing-glyph horiz-adv-x="2048" d="M 0,0 L 2047,0 2047,2047 0,2047 0,0 Z"/>
+   <glyph unicode="x" horiz-adv-x="985" d="M 983,0 L 608,578 940,1079 727,1079 500,684 274,1079 53,1079 387,569 10,0 223,0 492,457 756,0 Z"/>
+   <glyph unicode="o" horiz-adv-x="966" d="M 600,1104 C 293,1104 117,872 117,539 117,197 291,-25 598,-25 903,-25 1079,207 1079,541 1079,883 907,1104 600,1104 Z M 600,952 C 778,952 877,821 877,541 877,258 778,127 598,127 418,127 319,258 319,539 319,821 420,952 600,952 Z"/>
+   <glyph unicode="2" horiz-adv-x="868" d="M 467,1391 C 295,1391 162,1321 51,1184 L 178,1085 C 266,1190 342,1235 457,1235 590,1235 682,1151 682,1008 682,784 563,653 80,150 L 80,0 889,0 911,158 295,158 C 715,578 879,760 879,1016 879,1229 719,1391 467,1391 Z"/>
+   <glyph unicode="1" horiz-adv-x="592" d="M 662,0 L 662,1370 496,1370 72,1108 154,975 473,1169 473,0 Z"/>
+   <glyph unicode=" " horiz-adv-x="551"/>
+  </font>
+ </defs>
+ <g visibility="visible" id="Slide_1">
+  <g id="Drawing_1">
+   <path fill="none" stroke="rgb(255,255,255)" stroke-width="159" stroke-linejoin="round" d="M 5500,10700 L 3200,10700 3200,7300 7800,7300 7800,10700 5500,10700 Z"/>
+   <g fill="rgb(255,255,255)" stroke="none" font-family="Fira Mono embedded" font-size="635" font-style="normal" font-weight="400">
+    <text x="4749" y="9223">B</text>
+   </g>
+   <g fill="rgb(255,255,255)" stroke="none" font-family="Fira Sans embedded" font-size="635" font-style="normal" font-weight="400">
+    <text x="5130" y="9223">
+     <tspan x="5130 5503 5807 5977">ox 1</tspan></text>
+   </g>
+  </g>
+  <g id="Drawing_2">
+   <path fill="none" stroke="rgb(255,255,255)" stroke-width="159" stroke-linejoin="round" d="M 14400,10700 L 12100,10700 12100,7300 16700,7300 16700,10700 14400,10700 Z"/>
+   <g fill="rgb(255,255,255)" stroke="none" font-family="Fira Mono embedded" font-size="635" font-style="normal" font-weight="400">
+    <text x="13630" y="9223">B</text>
+   </g>
+   <g fill="rgb(255,255,255)" stroke="none" font-family="Fira Sans embedded" font-size="635" font-style="normal" font-weight="400">
+    <text x="14011" y="9223">
+     <tspan x="14011 14384 14688 14858">ox 2</tspan></text>
+   </g>
+  </g>
+  <g>
+   <path fill="none" stroke="rgb(255,255,255)" id="Drawing_3_0" stroke-width="159" stroke-linejoin="round" d="M 7800,8900 L 11393,8900"/>
+   <path fill="rgb(255,255,255)" stroke="none" id="Drawing_3_1" d="M 12200,8900 L 11393,8631 11393,9169 12200,8900 Z"/>
+  </g>
+ </g>
+</svg>
