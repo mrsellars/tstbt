@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>tstbt Blog-Engine</title>
+    <meta charset="utf-8"/>
+    <link href='http://fonts.googleapis.com/css?family=Fira+Sans' rel='stylesheet' type='text/css'>
+    <style>
+     /*other nice looking background colors: #FFAAA7 or #FF8B94*/
+     body {font-family: 'Fira Sans', sans-serif; background: #99D1BC; color: #fff; max-width:768px; margin: 0 auto !important;}
+     footer {font-size: 0.5em; margin-top: 100px;}
+     h2 {margin-top: 50px;}
+    .content {display: block;}
+    .content p {min-width: 100px; max-width: 600px;}
+    .brand {block: inline;}
+    .pull-right {float: right !important;}
+    .toc {float: right; margin-top: 30px;}
+    .toc ul {list-style: none; margin-top: 50px;}
+    a {color: #fff; text-decoration: underline;}
+    a:hover {color: #fff; text-decoration: none;}
+    pre {tab-size: 2;}
+    figure pre {margin-left: -110px;}
+    </style>
+  </head>
+
+  <body>
+    <div class='content'>
+      <h1>Too simple to be true - tstbt<span class='brand pull-right'>&#9651;</span></h1>
+      
+      <div class='toc'>
+        <span class='pull-right'>TOC</span>
+        <ul>
+          <li><a href="#3">#3</a></li>
+          <li><a href="#2">#2</a></li>
+          <li><a href="#1">#1</a></li>
+        </ul>
+      </div>
+
+      <article id='3'>
+        <h2>The template a.k.a blog engine for developers</h2>
+        <p>
+          <i>tstbt</i> is for you if:
+          <ul>
+            <li><i>you</i> know some HTML</li>
+            <li><i>you</i> don't need dynamic content shizzle</li>
+            <li><i>you</i> would like to blog, but still procrastinating because you are searching for the<br>right publishing tool</li>
+            <li><i>you</i> love static pages and blazing fast websites</li>
+            <li><i>you</i> like to have a GIT based workflow</li>
+            <li><i>you</i> would like to deploy the blog everywhere. For example on your <i>Raspberry Pi</i>,<br> <i>S3</i>, <i>GitHub Pages</i> and so on</li>
+          </ul>
+        </p>
+
+        <h3>How to blog?</h3>
+
+        <p>
+          Just checkout the template.html (<a href="https://github.com/mrsellars/tstbt/blob/master/template.html">https://github.com/mrsellars/tstbt</a>) and adjust it.<br><br>
+
+          <b>Have fun!</b>
+        </p>
+      </article>
+
+      <article id='2'>
+        <h2>Nicely styled tags so far - i'am a h2</h2>
+
+        <p>I'am a nice paragraph.</p>
+
+        <p>Me too, with a <a href='http://example.com'>Link</a>.</p>
+
+        <pre>And some code.</pre>
+
+        <h3>Conclusion with h3</h3>
+
+        <p>Enough for a first blog post.</p>
+      </article>
+
+      <article id='1'>
+        <h2>Example post</h2>
+
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+
+        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+
+        <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+
+        <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+
+        <p>
+          Okay, now we should sketch our business logic.
+          <figure>
+            <img src='img/example.svg' />
+            <figcaption>Heavy business logic.</figcaption>
+          </figure>
+        </p>
+
+        <p>
+          Upon our complex sketch, we are going to implement the business logic. Won't be an easy task but anyway:
+          <figure>
+            <pre>
+              <code>class Box1
+                def heavy; end
+              end
+
+              class Box2
+                def hard; end
+              end</code>
+            </pre>
+            <figcaption>Code for the heavy business logic.</figcaption>
+          </figure>
+        </p>
+
+        <p>Thank's for your time</p>
+      </article>
+
+      <footer>
+        Powered by <a href='https://github.com/mrsellars/tstbt'>tstbt</a>.
+      </footer>
+    </div>
+  </body>
+</html>
